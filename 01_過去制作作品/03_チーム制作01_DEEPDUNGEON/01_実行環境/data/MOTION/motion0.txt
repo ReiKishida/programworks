@@ -1,0 +1,45 @@
+10
+
+data/MODEL/AKRmodel/00_body.x
+data/MODEL/AKRmodel/01_head.x
+data/MODEL/AKRmodel/02_armR.x
+data/MODEL/AKRmodel/03_handR.x
+data/MODEL/AKRmodel/04_armL.x
+data/MODEL/AKRmodel/05_handL.x
+data/MODEL/AKRmodel/06_legR.x
+data/MODEL/AKRmodel/07_footR.x
+data/MODEL/AKRmodel/08_legL.x
+data/MODEL/AKRmodel/09_footL.x
+
+-1
+0
+0
+2
+0
+4
+0
+6
+0
+8
+
+0.0 , 15.0 , 0.0
+0.0 , 15.0 , 0.0
+-7.5 , 12.0 , 0.0
+-10.0 , 0.0 , 0.0
+7.5 , 12.0 , 0.0
+10.0 , 0.0 , 0.0
+-4.0 , 0.0 , 0.0
+0.0 , -10.0 , 0.0
+4.0 , 0.0 , 0.0
+0.0 , -10.0 , 0.0
+
+0.0 , 0.0 , 0.0
+0.0 , 0.0 , 0.0
+0.0 , 0.0 , 0.0
+0.0 , 0.0 , 0.0
+0.0 , 0.0 , 0.0
+0.0 , 0.0 , 0.0
+0.0 , 0.0 , 0.0
+0.0 , 0.0 , 0.0
+0.0 , 0.0 , 0.0
+0.0 , 0.0 , 0.0

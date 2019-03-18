@@ -1,0 +1,271 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{509EDAAA-C1F7-4E17-8827-6E6332DD5D95}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FightersResonance_gamepad</RootNamespace>
+    <WindowsTargetPlatformVersion>8.1</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v140</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IncludePath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Include;$(IncludePath)</IncludePath>
+    <LibraryPath>C:\Program Files %28x86%29\Microsoft DirectX SDK %28June 2010%29\Lib\x86;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="sorce\boss.cpp" />
+    <ClCompile Include="sorce\camera.cpp" />
+    <ClCompile Include="sorce\clearrank.cpp" />
+    <ClCompile Include="sorce\collision.cpp" />
+    <ClCompile Include="sorce\combo.cpp" />
+    <ClCompile Include="sorce\combogauge.cpp" />
+    <ClCompile Include="sorce\comboscore.cpp" />
+    <ClCompile Include="sorce\cutin.cpp" />
+    <ClCompile Include="sorce\damagescore.cpp" />
+    <ClCompile Include="sorce\debugproc.cpp" />
+    <ClCompile Include="sorce\effect.cpp" />
+    <ClCompile Include="sorce\enemy.cpp" />
+    <ClCompile Include="sorce\enemy_pow.cpp" />
+    <ClCompile Include="sorce\enemy_trc.cpp" />
+    <ClCompile Include="sorce\fade.cpp" />
+    <ClCompile Include="sorce\finalscore.cpp" />
+    <ClCompile Include="sorce\game.cpp" />
+    <ClCompile Include="sorce\input.cpp" />
+    <ClCompile Include="sorce\light.cpp" />
+    <ClCompile Include="sorce\main.cpp" />
+    <ClCompile Include="sorce\manager.cpp" />
+    <ClCompile Include="sorce\model.cpp" />
+    <ClCompile Include="sorce\number.cpp" />
+    <ClCompile Include="sorce\object.cpp" />
+    <ClCompile Include="sorce\particle.cpp" />
+    <ClCompile Include="sorce\particle_2D.cpp" />
+    <ClCompile Include="sorce\pause.cpp" />
+    <ClCompile Include="sorce\player.cpp" />
+    <ClCompile Include="sorce\polygon.cpp" />
+    <ClCompile Include="sorce\pr.cpp" />
+    <ClCompile Include="sorce\ranking.cpp" />
+    <ClCompile Include="sorce\rankinglogo.cpp" />
+    <ClCompile Include="sorce\rankingnumber.cpp" />
+    <ClCompile Include="sorce\renderer.cpp" />
+    <ClCompile Include="sorce\result.cpp" />
+    <ClCompile Include="sorce\resultlogo.cpp" />
+    <ClCompile Include="sorce\scene.cpp" />
+    <ClCompile Include="sorce\scene2D.cpp" />
+    <ClCompile Include="sorce\scene3D.cpp" />
+    <ClCompile Include="sorce\sceneX.cpp" />
+    <ClCompile Include="sorce\scene_billboard.cpp" />
+    <ClCompile Include="sorce\scene_billboard_anim.cpp" />
+    <ClCompile Include="sorce\scene_gauge.cpp" />
+    <ClCompile Include="sorce\scene_gauge_bill.cpp" />
+    <ClCompile Include="sorce\scene_meshcylinder.cpp" />
+    <ClCompile Include="sorce\scene_meshfield.cpp" />
+    <ClCompile Include="sorce\scene_meshorbit.cpp" />
+    <ClCompile Include="sorce\scene_meshwall.cpp" />
+    <ClCompile Include="sorce\score.cpp" />
+    <ClCompile Include="sorce\sound.cpp" />
+    <ClCompile Include="sorce\timer.cpp" />
+    <ClCompile Include="sorce\title.cpp" />
+    <ClCompile Include="sorce\titlelogo.cpp" />
+    <ClCompile Include="sorce\tutorial.cpp" />
+    <ClCompile Include="sorce\ui.cpp" />
+    <ClCompile Include="sorce\ui_gauge.cpp" />
+    <ClCompile Include="sorce\ui_gauge_bill.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sorce\boss.h" />
+    <ClInclude Include="sorce\camera.h" />
+    <ClInclude Include="sorce\clearrank.h" />
+    <ClInclude Include="sorce\collision.h" />
+    <ClInclude Include="sorce\combo.h" />
+    <ClInclude Include="sorce\combogauge.h" />
+    <ClInclude Include="sorce\comboscore.h" />
+    <ClInclude Include="sorce\cutin.h" />
+    <ClInclude Include="sorce\damagescore.h" />
+    <ClInclude Include="sorce\debugproc.h" />
+    <ClInclude Include="sorce\effect.h" />
+    <ClInclude Include="sorce\enemy.h" />
+    <ClInclude Include="sorce\enemy_pow.h" />
+    <ClInclude Include="sorce\enemy_trc.h" />
+    <ClInclude Include="sorce\fade.h" />
+    <ClInclude Include="sorce\finalscore.h" />
+    <ClInclude Include="sorce\game.h" />
+    <ClInclude Include="sorce\input.h" />
+    <ClInclude Include="sorce\light.h" />
+    <ClInclude Include="sorce\main.h" />
+    <ClInclude Include="sorce\manager.h" />
+    <ClInclude Include="sorce\model.h" />
+    <ClInclude Include="sorce\number.h" />
+    <ClInclude Include="sorce\object.h" />
+    <ClInclude Include="sorce\particle.h" />
+    <ClInclude Include="sorce\particle_2D.h" />
+    <ClInclude Include="sorce\pause.h" />
+    <ClInclude Include="sorce\player.h" />
+    <ClInclude Include="sorce\polygon.h" />
+    <ClInclude Include="sorce\pr.h" />
+    <ClInclude Include="sorce\ranking.h" />
+    <ClInclude Include="sorce\rankinglogo.h" />
+    <ClInclude Include="sorce\rankingnumber.h" />
+    <ClInclude Include="sorce\renderer.h" />
+    <ClInclude Include="sorce\result.h" />
+    <ClInclude Include="sorce\resultlogo.h" />
+    <ClInclude Include="sorce\scene.h" />
+    <ClInclude Include="sorce\scene2D.h" />
+    <ClInclude Include="sorce\scene3D.h" />
+    <ClInclude Include="sorce\sceneX.h" />
+    <ClInclude Include="sorce\scene_billboard.h" />
+    <ClInclude Include="sorce\scene_billboard_anim.h" />
+    <ClInclude Include="sorce\scene_gauge.h" />
+    <ClInclude Include="sorce\scene_gauge_bill.h" />
+    <ClInclude Include="sorce\scene_meshcylinder.h" />
+    <ClInclude Include="sorce\scene_meshfield.h" />
+    <ClInclude Include="sorce\scene_meshorbit.h" />
+    <ClInclude Include="sorce\scene_meshwall.h" />
+    <ClInclude Include="sorce\score.h" />
+    <ClInclude Include="sorce\sound.h" />
+    <ClInclude Include="sorce\timer.h" />
+    <ClInclude Include="sorce\title.h" />
+    <ClInclude Include="sorce\titlelogo.h" />
+    <ClInclude Include="sorce\tutorial.h" />
+    <ClInclude Include="sorce\ui.h" />
+    <ClInclude Include="sorce\ui_gauge.h" />
+    <ClInclude Include="sorce\ui_gauge_bill.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

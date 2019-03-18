@@ -1,0 +1,276 @@
+#------------------------------------------------------------------------
+# ビルボードの配置とファイル情報[billboard.txt]
+# Author:RyotaKinoshita
+#------------------------------------------------------------------------
+SCRIPT
+#------------------------------------------------------------------------------
+# 読み込むテクスチャ数 最大24
+#------------------------------------------------------------------------------
+NUM_TEXTURE = 1
+
+#------------------------------------------------------------------------------
+# 読み込むテクスチャファイル名
+#------------------------------------------------------------------------------
+TEXTURE_FILENAME = data/TEXTURE/kumo.png		# [0]桜テクスチャ
+
+#------------------------------------------------------------------------------
+# 表示するビルボードの配置情報 100まで ブロック数は100X100まで
+#------------------------------------------------------------------------------
+
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  -1941 -524 1177	
+	ROT = 0 0 0	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  -3117 -524 1142	
+	ROT = 0 0 1	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  591 -524 -2212	
+	ROT = 0 0 2	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  1734 -524 3605	
+	ROT = 0 0 3	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  -3729 -524 5829	
+	ROT = 0 0 4	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  -5977 -524 5504	
+	ROT = 0 0 5	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+	BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  -1780 -439 -676	
+	ROT = 0 0 0	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  -2129 -439 3999	
+	ROT = 0 0 1	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  -4590 -439 2086	
+	ROT = 0 0 2	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  2508 -439 -1801	
+	ROT = 0 0 3	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  -3596 -439 -1964	
+	ROT = 0 0 4	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  -44 -439 -2971	
+	ROT = 0 0 5	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+	
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  1515 -382 2621	
+	ROT = 0 0 0	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  -1597 -382 2030	
+	ROT = 0 0 1	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  1840 -382 -1106	
+	ROT = 0 0 2	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  5390 -382 4126	
+	ROT = 0 0 3	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  4808 -382 2294	
+	ROT = 0 0 4	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  3034 -382 -904	
+	ROT = 0 0 5	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  4493 -554 2700	
+	ROT = 0 0 0	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  476 -554 -1156	
+	ROT = 0 0 1	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  3525 -554 3533	
+	ROT = 0 0 2	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  -863 -554 -560	
+	ROT = 0 0 3	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  164 -554 2907	
+	ROT = 0 0 4	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  -1395 -554 729	
+	ROT = 0 0 5	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  5329 -343 2268	
+	ROT = 0 0 0	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  5746 -343 -1409	
+	ROT = 0 0 1	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  2509 -343 2099	
+	ROT = 0 0 2	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  -5796 -343 5229	
+	ROT = 0 0 3	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  4146 -343 223	
+	ROT = 0 0 4	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  -2692 -343 4129	
+	ROT = 0 0 5	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  -4949 -563 497	
+	ROT = 0 0 0	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  -842 -563 449	
+	ROT = 0 0 1	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  -1619 -563 2685	
+	ROT = 0 0 2	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  2236 -563 5304	
+	ROT = 0 0 3	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  -146 -563 -2839	
+	ROT = 0 0 4	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  -3153 -563 -1279	
+	ROT = 0 0 5	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  3012 -313 5828	
+	ROT = 0 0 0	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  -5260 -313 -281	
+	ROT = 0 0 1	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  -1304 -313 4391	
+	ROT = 0 0 2	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  3946 -313 280	
+	ROT = 0 0 3	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  1462 -313 -1689	
+	ROT = 0 0 4	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+BILLBOARDSET		
+	TEXTYPE =  0	
+	POS  =  2362 -313 2234	
+	ROT = 0 0 5	
+	SIZE =  800 500	
+END_BILLBOARDSET		
+
+ENDSCRIPT

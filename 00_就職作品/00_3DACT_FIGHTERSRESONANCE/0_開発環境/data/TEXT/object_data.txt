@@ -1,0 +1,1008 @@
+#==============================================================================
+#
+# モデル情報のテキストファイル [model.txt]
+# Author : 岸田怜(Kishida Rei)
+#
+#==============================================================================
+SCRIPT
+
+#------------------------------------------------------------------------------
+# モデル数
+#------------------------------------------------------------------------------
+NUM_MODEL = 23
+
+#------------------------------------------------------------------------------
+# モデルファイル名
+#------------------------------------------------------------------------------
+MODEL_FILENAME = data/MODEL/object/dram.x					# [0]ドラム缶
+MODEL_FILENAME = data/MODEL/object/dust_box.x				# [1]ゴミ箱
+MODEL_FILENAME = data/MODEL/object/keepout.x				# [2]停止線
+MODEL_FILENAME = data/MODEL/object/phone.x					# [3]電話
+MODEL_FILENAME = data/MODEL/object/pillar.x					# [4]柱
+MODEL_FILENAME = data/MODEL/object/stair.x					# [5]階段
+MODEL_FILENAME = data/MODEL/object/station_board000.x		# [6]看板01
+MODEL_FILENAME = data/MODEL/object/station_board000_90d.x	# [7]看板01(90)
+MODEL_FILENAME = data/MODEL/object/station_board001.x		# [8]看板02
+MODEL_FILENAME = data/MODEL/object/station_board001_90d.x	# [9]看板02(90)
+MODEL_FILENAME = data/MODEL/object/station_chair.x			# [10]椅子
+MODEL_FILENAME = data/MODEL/object/ticket_gate.x			# [11]改札
+MODEL_FILENAME = data/MODEL/object/train_chair.x			# [12]電車内椅子
+MODEL_FILENAME = data/MODEL/object/train_chair_L.x			# [13]電車内椅子(大)
+MODEL_FILENAME = data/MODEL/object/box_L.x					# [14]木箱(大)
+MODEL_FILENAME = data/MODEL/object/box_M.x					# [15]木箱(中)
+MODEL_FILENAME = data/MODEL/object/train_pole.x				# [16]電車内棒
+MODEL_FILENAME = data/MODEL/object/train.x					# [17]電車
+MODEL_FILENAME = data/MODEL/object/train_floor.x			# [18]電車_床
+MODEL_FILENAME = data/MODEL/object/train_left.x				# [19]電車_左
+MODEL_FILENAME = data/MODEL/object/train_right.x			# [20]電車_右
+MODEL_FILENAME = data/MODEL/object/train_depth.x			# [21]電車_奥
+MODEL_FILENAME = data/MODEL/object/jj.x						# [22]自販機
+MODEL_FILENAME = data/MODEL/object/denkou_L.x				# [23]広告
+MODEL_FILENAME = data/MODEL/object/denkou_L_90.x			# [24]広告90
+MODEL_FILENAME = data/MODEL/object/denkou_L_up.x			# [25]広告(上)
+MODEL_FILENAME = data/MODEL/object/denkou_L_up_90.x			# [26]広告(上_90)
+
+
+#------------------------------------------------------------------------------
+#モデル配置情報
+#------------------------------------------------------------------------------
+
+#----------------------------------
+#階段
+#----------------------------------
+MODELSET
+	POS = -150.0 0.0 -360.0
+	ROT = 0.0 -90.0 0.0
+	TYPE = 5
+END_MODELSET
+MODELSET
+	POS = -150.0 0.0 -350.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 2
+END_MODELSET
+
+#----------------------------------
+#柱
+#----------------------------------
+MODELSET
+	POS = 220.0 0.0 -220.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 4
+END_MODELSET
+
+MODELSET
+	POS = 1040.0 0.0 -220.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 4
+END_MODELSET
+
+
+MODELSET
+	POS = 1550.0 0.0 -220.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 4
+END_MODELSET
+
+MODELSET
+	POS = 2050.0 0.0 -220.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 4
+END_MODELSET
+
+#----------------------------------
+#柱2
+#----------------------------------
+MODELSET
+	POS = 220.0 0.0 260.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 4
+END_MODELSET
+
+MODELSET
+	POS = 1040.0 0.0 260.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 4
+END_MODELSET
+
+
+MODELSET
+	POS = 1550.0 0.0 260.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 4
+END_MODELSET
+
+MODELSET
+	POS = 2050.0 0.0 260.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 4
+END_MODELSET
+#----------------------------------
+#椅子
+#----------------------------------
+MODELSET
+	POS = 140.0 0.0 -190.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 10
+END_MODELSET
+MODELSET
+	POS = 140.0 0.0 -230.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 10
+END_MODELSET
+
+MODELSET
+	POS = 290.0 0.0 -190.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 10
+END_MODELSET
+MODELSET
+	POS = 290.0 0.0 -230.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 10
+END_MODELSET
+
+
+MODELSET
+	POS = 960.0 0.0 -190.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 10
+END_MODELSET
+MODELSET
+	POS = 960.0 0.0 -230.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 10
+END_MODELSET
+
+MODELSET
+	POS = 1120.0 0.0 -190.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 10
+END_MODELSET
+MODELSET
+	POS = 1120.0 0.0 -230.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 10
+END_MODELSET
+
+MODELSET
+	POS = 1470.0 0.0 -190.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 10
+END_MODELSET
+MODELSET
+	POS = 1470.0 0.0 -230.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 10
+END_MODELSET
+
+MODELSET
+	POS = 1630.0 0.0 -190.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 10
+END_MODELSET
+MODELSET
+	POS = 1630.0 0.0 -230.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 10
+END_MODELSET
+
+#----------------------------------
+#ドラム缶
+#----------------------------------
+MODELSET
+	POS = 600.0 0.0 -290.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 0
+END_MODELSET
+MODELSET
+	POS = 600.0 0.0 -350.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 0
+END_MODELSET
+MODELSET
+	POS = 640.0 0.0 -350.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 0
+END_MODELSE
+
+MODELSET
+	POS = 2980.0 0.0 -1170.0
+	ROT = 0.0 90.0 0.0
+	TYPE = 0
+END_MODELSET
+MODELSET
+	POS = 2980.0 0.0 -1220.0
+	ROT = 0.0 90.0 0.0
+	TYPE = 0
+END_MODELSET
+MODELSET
+	POS = 4050.0 0.0 82.0
+	ROT = 0.0 90.0 0.0
+	TYPE = 0
+END_MODELSET
+MODELSET
+	POS = 4050.0 0.0 40.0
+	ROT = 0.0 90.0 0.0
+	TYPE = 0
+END_MODELSET
+MODELSET
+	POS = 3550.0 0.0 -300.0
+	ROT = 0.0 90.0 0.0
+	TYPE = 0
+END_MODELSET
+MODELSET
+	POS = 3550.0 0.0 -350.0
+	ROT = 0.0 90.0 0.0
+	TYPE = 0
+END_MODELSET
+#----------------------------------
+#看板01
+#----------------------------------
+MODELSET
+	POS = -180.0 0.0 -180.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 7
+END_MODELSET
+MODELSET
+	POS = -80.0 0.0 -60.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 6
+END_MODELSET
+MODELSET
+	POS = 110.0 0.0 -60.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 6
+END_MODELSET
+
+MODELSET
+	POS = 670.0 0.0 -60.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 6
+END_MODELSET
+
+MODELSET
+	POS = 1000.0 0.0 -60.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 6
+END_MODELSET
+MODELSET
+	POS = 1300.0 0.0 -60.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 6
+END_MODELSET
+MODELSET
+	POS = 1500.0 0.0 -60.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 6
+END_MODELSET
+
+MODELSET
+	POS = 1800.0 0.0 -60.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 6
+END_MODELSET
+MODELSET
+	POS = 2000.0 0.0 -60.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 6
+END_MODELSET
+
+MODELSET
+	POS = 2200.0 0.0 -60.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 6
+END_MODELSET
+MODELSET
+	POS = 2400.0 0.0 -60.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 6
+END_MODELSET
+#----------------------------------
+#看板02
+#----------------------------------
+MODELSET
+	POS = -60.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+MODELSET
+	POS = 95.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+MODELSET
+	POS = 250.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+MODELSET
+	POS = 405.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+
+MODELSET
+	POS = 660.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+MODELSET
+	POS = 815.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+MODELSET
+	POS = 970.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+MODELSET
+	POS = 1125.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+MODELSET
+	POS = 1280.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+MODELSET
+	POS = 1435.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+MODELSET
+	POS = 1590.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+MODELSET
+	POS = 1745.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+MODELSET
+	POS = 1900.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+MODELSET
+	POS = 2055.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+MODELSET
+	POS = 2210.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+
+MODELSET
+	POS = 2365.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+MODELSET
+	POS = 2525.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+MODELSET
+	POS = 2685.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+MODELSET
+	POS = 2845.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+MODELSET
+	POS = 3005.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+MODELSET
+	POS = 3165.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+MODELSET
+	POS = 3325.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+MODELSET
+	POS = 3485.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+MODELSET
+	POS = 3645.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+#----------------------------------
+#改札
+#----------------------------------
+
+MODELSET
+	POS = 3730.0 0.0 -510.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 11
+END_MODELSET
+MODELSET
+	POS = 3860.0 0.0 -510.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 11
+END_MODELSET
+MODELSET
+	POS = 3980.0 0.0 -510.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 11
+END_MODELSET
+MODELSET
+	POS = 4090.0 0.0 -510.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 11
+END_MODELSET
+
+#----------------------------------
+#自販機
+#----------------------------------
+MODELSET
+	POS = 4070.0 0.0 -1200.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 22
+END_MODELSET
+MODELSET
+	POS = 4070.0 0.0 -1290.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 22
+END_MODELSET
+
+MODELSET
+	POS = 4070.0 0.0 -2100.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 22
+END_MODELSET
+MODELSET
+	POS = 4070.0 0.0 -2190.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 22
+END_MODELSET
+#----------------------------------
+#電車
+#----------------------------------
+MODELSET
+	POS = -790.0 -10.0 72.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 17
+END_MODELSET
+
+MODELSET
+	POS = -150.0 -10.0 72.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 17
+END_MODELSET
+
+MODELSET
+	POS = 1400.0 -10.0 85.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 17
+END_MODELSET
+MODELSET
+	POS = 2130.0 -10.0 85.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 17
+END_MODELSET
+
+#=================================-
+# 1両目
+#=================================
+MODELSET
+	POS = 630.0 0.0 80.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 18
+END_MODELSET
+
+MODELSET
+	POS = 220.0 5.0 82.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 19
+END_MODELSET
+
+MODELSET
+	POS = 1025.0 -8.0 80.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 20
+END_MODELSET
+MODELSET
+	POS = 645.0 -50.0 168.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 21
+END_MODELSET
+
+#=================================-
+# 2両目
+#=================================
+MODELSET
+	POS = 2900.0 0.0 80.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 18
+END_MODELSET
+
+MODELSET
+	POS = 2500.0 5.0 82.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 19
+END_MODELSET
+
+MODELSET
+	POS = 2900.0 -50.0 168.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 21
+END_MODELSET
+
+#=================================-
+# 3両目
+#=================================
+MODELSET
+	POS = 3700.0 0.0 80.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 18
+END_MODELSET
+
+MODELSET
+	POS = 4090.0 5.0 82.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 20
+END_MODELSET
+
+MODELSET
+	POS = 3710.0 -50.0 168.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 21
+END_MODELSET
+
+#----------------------------------
+#電話
+#----------------------------------
+MODELSET
+	POS = -140.0 0.0 -110.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 3
+END_MODELSET
+MODELSET
+	POS = -50.0 0.0 -110.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 3
+END_MODELSET
+MODELSET
+	POS = 40.0 0.0 -110.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 3
+END_MODELSET
+
+
+#----------------------------------
+#電車内12, 13, 16
+#----------------------------------
+MODELSET
+	POS = 260.0 0.0 130.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 12
+END_MODELSET
+
+MODELSET
+	POS = 270.0 0.0 -15.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 12
+END_MODELSET
+
+MODELSET
+	POS = 965.0 0.0 125.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 12
+END_MODELSET
+
+MODELSET
+	POS = 965.0 0.0 -15.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 12
+END_MODELSET
+
+
+MODELSET
+	POS = 320.0 -5.0 130.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 325.0 -5.0 -15.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 430.0 -5.0 130.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 430.0 -5.0 -15.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 780.0 -5.0 130.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 780.0 -5.0 -15.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 910.0 -5.0 130.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 910.0 -5.0 -15.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+
+MODELSET
+	POS = 600.0 -15.0 130.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 13
+END_MODELSET
+
+MODELSET
+	POS = 610.0 -15.0 -15.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 13
+END_MODELSET
+#----------------------------------
+#2両目電車内12, 13, 16
+#----------------------------------
+MODELSET
+	POS = 2540.0 0.0 130.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 12
+END_MODELSET
+
+MODELSET
+	POS = 2540.0 0.0 -15.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 12
+END_MODELSET
+
+MODELSET
+	POS = 3220.0 0.0 125.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 12
+END_MODELSET
+
+MODELSET
+	POS = 3220.0 0.0 -15.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 12
+END_MODELSET
+
+
+MODELSET
+	POS = 2590.0 -5.0 130.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 2590.0 -5.0 -15.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 2730.0 -5.0 130.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 2730.0 -5.0 -15.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 3080.0 -5.0 130.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 3080.0 -5.0 -15.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 3160.0 -5.0 130.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 3160.0 -5.0 -15.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 3275.0 -5.0 130.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 3275.0 -5.0 -15.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+
+MODELSET
+	POS = 2900.0 -15.0 130.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 13
+END_MODELSET
+
+MODELSET
+	POS = 2910.0 -15.0 -15.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 13
+END_MODELSET
+#----------------------------------
+#3両目電車内12, 13, 16
+#----------------------------------
+MODELSET
+	POS = 3340.0 0.0 130.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 12
+END_MODELSET
+
+MODELSET
+	POS = 3340.0 0.0 -15.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 12
+END_MODELSET
+
+MODELSET
+	POS = 4020.0 0.0 125.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 12
+END_MODELSET
+
+MODELSET
+	POS = 4020.0 0.0 -15.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 12
+END_MODELSET
+
+
+MODELSET
+	POS = 3390.0 -5.0 130.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 3390.0 -5.0 -15.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 3530.0 -5.0 130.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 3530.0 -5.0 -15.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 3880.0 -5.0 130.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 3880.0 -5.0 -15.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 3960.0 -5.0 130.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 3960.0 -5.0 -15.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 4075.0 -5.0 130.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+MODELSET
+	POS = 4075.0 -5.0 -15.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 16
+END_MODELSET
+
+
+MODELSET
+	POS = 3700.0 -15.0 130.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 13
+END_MODELSET
+
+MODELSET
+	POS = 3710.0 -15.0 -15.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 13
+END_MODELSET
+#----------------------------------
+#木箱(1グループ)
+#----------------------------------
+MODELSET
+	POS = 520.0 0.0 -340.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 14
+END_MODELSET
+
+MODELSET
+	POS = 520.0 0.0 -250.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 14
+END_MODELSET
+
+MODELSET
+	POS = 520.0 0.0 -130.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 14
+END_MODELSET
+
+#----------------------------------
+#木箱(2グループ)
+#----------------------------------
+
+MODELSET
+	POS = 3245.0 0.0 -340.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 14
+END_MODELSET
+
+MODELSET
+	POS = 3245.0 0.0 -220.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 14
+END_MODELSET
+
+MODELSET
+	POS = 3245 0.0 -110.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 14
+END_MODELSET
+
+#----------------------------------
+#木箱(3グループ)
+#----------------------------------
+MODELSET
+	POS = 3360.0 0.0 -340.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 14
+END_MODELSET
+
+MODELSET
+	POS = 3360.0 0.0 -220.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 14
+END_MODELSET
+
+MODELSET
+	POS = 3360.0 0.0 -110.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 14
+END_MODELSET
+#----------------------------------
+#木箱(4グループ)
+#----------------------------------
+MODELSET
+	POS = 3470.0 0.0 -340.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 14
+END_MODELSET
+
+MODELSET
+	POS = 3470.0 0.0 -220.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 14
+END_MODELSET
+
+MODELSET
+	POS = 3470.0 0.0 -110.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 14
+END_MODELSET
+
+#----------------------------------
+#電光掲示板
+#----------------------------------
+MODELSET
+	POS = 70.0 140.0 -150.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 25
+END_MODELSET
+
+MODELSET
+	POS = 820.0 140.0 -150.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 25
+END_MODELSET
+
+MODELSET
+	POS = 3920.0 170.0 -320.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 25
+END_MODELSET
+
+#----------------------------------
+#広告
+#----------------------------------
+MODELSET
+	POS = 1300.0 0.0 -200.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 23
+END_MODELSET
+
+MODELSET
+	POS = 2300.0 0.0 -200.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 23
+END_MODELSET
+
+MODELSET
+	POS = 4070.0 0.0 -1700.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 24
+END_MODELSET
+
+MODELSET
+	POS = 4070.0 0.0 -2504.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 24
+END_MODELSET
+
+END_SCRIPT

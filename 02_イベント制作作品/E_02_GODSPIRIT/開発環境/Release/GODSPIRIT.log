@@ -1,0 +1,46 @@
+﻿  billboard.cpp
+  BillLife.cpp
+  camera.cpp
+  effect.cpp
+  effect2D.cpp
+  effect3D.cpp
+  effectUP.cpp
+  enemy.cpp
+  fade.cpp
+  game.cpp
+  gamepad.cpp
+  hit.cpp
+  input.cpp
+  item.cpp
+  life.cpp
+  light.cpp
+  line.cpp
+  main.cpp
+  meshCylinder.cpp
+  meshDome.cpp
+  コンパイル中...
+  meshDome2.cpp
+  meshFar.cpp
+  meshField.cpp
+  meshWall.cpp
+  MessageWindow.cpp
+  model.cpp
+  orbit.cpp
+  pause.cpp
+  player.cpp
+  ranking.cpp
+  result.cpp
+  score.cpp
+  shadow.cpp
+  sky.cpp
+  sound.cpp
+  spirit.cpp
+  time.cpp
+  title.cpp
+  tutorial.cpp
+  UI.cpp
+  コード生成しています。
+  All 437 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  コード生成が終了しました。
+  GODSPIRIT.vcxproj -> C:\Users\game111\Desktop\吉田学園情報ビジネス専門学校_岸田怜\01_イベント制作作品\E_02_GODSPIRIT\開発環境\Release\GODSPIRIT.exe
+  GODSPIRIT.vcxproj -> C:\Users\game111\Desktop\吉田学園情報ビジネス専門学校_岸田怜\01_イベント制作作品\E_02_GODSPIRIT\開発環境\Release\GODSPIRIT.pdb (Full PDB)

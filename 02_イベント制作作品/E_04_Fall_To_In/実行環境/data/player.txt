@@ -1,0 +1,137 @@
+#==============================================================================
+#
+# 『モーションビューワ』スクリプトファイル [player.txt]
+# Author : RyotaKinoshita
+#
+#==============================================================================
+SCRIPT			# この行は絶対消さないこと！
+
+#------------------------------------------------------------------------------
+# モデル数
+#------------------------------------------------------------------------------
+NUM_MODEL = 15
+
+
+#------------------------------------------------------------------------------
+# モーション情報
+#------------------------------------------------------------------------------
+MOTIONFILEDATA = data/motion_none.txt
+MOTIONFILEDATA = data/motion_bike.txt
+MOTIONFILEDATA = data/motion_skateboard.txt
+MOTIONFILEDATA = data/motion_tank.txt
+#------------------------------------------------------------------------------
+# キャラクター情報
+#------------------------------------------------------------------------------
+CHARACTERSET
+	MOVE = 2.55						# 移動量
+	JUMP = 8.65						# ジャンプ量
+	NUM_PARTS = 15					# パーツ数
+
+	PARTSSET
+		INDEX = 0					# 腰[0]
+		PARENT = -1					# (親)NULL
+		POS = 0.0 23.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 1					# 体[1]
+		PARENT = 0					# (親)腰
+		POS = 0.0 10.0 1.7
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 2					# 頭[2]
+		PARENT = 1					# (親)体
+		POS = 0.0 10.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 3					# 右腕[3]
+		PARENT = 1					# (親)体
+		POS = -2.0 7.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 4					# 右手[4]
+		PARENT = 3					# (親)右腕
+		POS = -10.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 5					# 左腕[5]
+		PARENT = 1					# (親)右肩
+		POS = 2.0 7.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 6					# 左手[6]
+		PARENT = 5					# (親)右腕
+		POS = 10.0 0.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 7					# 右腿[7]
+		PARENT = 0					# (親)体
+		POS = -3.0 5.0 1.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 8					# 右足[8]
+		PARENT = 7					# (親)右肩
+		POS = -1.0 -12.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+	PARTSSET
+		INDEX = 9					# 左腿[9]
+		PARENT = 0					# (親)右腕
+		POS = 3.0 5.0 1.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 10					# 左足[10]
+		PARENT = 9					# (親)体
+		POS = 1.0 -12.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 11					# 尾1[11]
+		PARENT = 0					# (親)腰
+		POS = 0.0 4.0 5.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 12					# 尾2[[12]
+		PARENT = 11					# (親)尾1
+		POS = 0.0 -10.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+	
+		PARTSSET
+		INDEX = 13					# 尾3[[13]
+		PARENT = 12					# (親)尾2
+		POS = 0.0 -10.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+	PARTSSET
+		INDEX = 14					# 乗り物(鉛筆)[14]
+		PARENT = 0					# (親)右腿
+		POS = 0.0 -5.0 0.0
+		ROT = 0.0 0.0 0.0
+	END_PARTSSET
+
+END_CHARACTERSET
+
+END_SCRIPT		# この行は絶対消さないこと！

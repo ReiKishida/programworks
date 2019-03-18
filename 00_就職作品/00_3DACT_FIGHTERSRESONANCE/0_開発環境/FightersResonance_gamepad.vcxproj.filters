@@ -1,0 +1,411 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\フレームワーク">
+      <UniqueIdentifier>{7c5da9a5-efac-445a-951f-4ce40c8f4746}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\シーン">
+      <UniqueIdentifier>{6245a0bf-5401-489f-97d7-78e3596808f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\キャラクター">
+      <UniqueIdentifier>{e504e28f-eeeb-4c52-9e5c-d0bbe184f5fa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\エフェクト">
+      <UniqueIdentifier>{7f091dfe-f60c-4d30-b57c-c4817492f7be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\数字">
+      <UniqueIdentifier>{0a0ec419-d3be-457a-8746-174d6954afd7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\ui">
+      <UniqueIdentifier>{88e990bb-a9f7-4aa7-b1c0-71dbbaad454d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\単独">
+      <UniqueIdentifier>{3e1fe198-da74-47bf-9d37-1234298c2fa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\オブジェクト">
+      <UniqueIdentifier>{81bc24cf-1dcb-4ffa-ab58-78c287ee1c7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\フレームワーク">
+      <UniqueIdentifier>{81440ab0-3a11-456a-b492-ac59c1f5e320}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\シーン">
+      <UniqueIdentifier>{cea992b8-f13d-479b-9c24-61e9e788136f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\キャラクター">
+      <UniqueIdentifier>{d12fb068-1ce3-46e2-9b47-5f74e54091f0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\ui">
+      <UniqueIdentifier>{373bae52-3139-4f3a-ae29-0b70a888fe14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\エフェクト">
+      <UniqueIdentifier>{44a62e29-c0c9-42f0-9d5e-4f5527cf94f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\数字">
+      <UniqueIdentifier>{1a565623-13a0-4f6d-a910-0da9017a68a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\単独">
+      <UniqueIdentifier>{e51c3b33-e5d9-490b-907b-c5a2e5aab083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\オブジェクト">
+      <UniqueIdentifier>{0fb07ff4-d811-447a-b22d-7701c1619691}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="sorce\main.cpp">
+      <Filter>ソース ファイル\フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\camera.cpp">
+      <Filter>ソース ファイル\フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\fade.cpp">
+      <Filter>ソース ファイル\フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\game.cpp">
+      <Filter>ソース ファイル\フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\light.cpp">
+      <Filter>ソース ファイル\フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\input.cpp">
+      <Filter>ソース ファイル\フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\manager.cpp">
+      <Filter>ソース ファイル\フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\pause.cpp">
+      <Filter>ソース ファイル\フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\boss.cpp">
+      <Filter>ソース ファイル\キャラクター</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\enemy.cpp">
+      <Filter>ソース ファイル\キャラクター</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\enemy_pow.cpp">
+      <Filter>ソース ファイル\キャラクター</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\enemy_trc.cpp">
+      <Filter>ソース ファイル\キャラクター</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\player.cpp">
+      <Filter>ソース ファイル\キャラクター</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\cutin.cpp">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\combogauge.cpp">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\clearrank.cpp">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\combo.cpp">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\effect.cpp">
+      <Filter>ソース ファイル\エフェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\particle.cpp">
+      <Filter>ソース ファイル\エフェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\particle_2D.cpp">
+      <Filter>ソース ファイル\エフェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\scene.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\scene_billboard.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\scene_billboard_anim.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\scene_gauge.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\scene_meshcylinder.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\scene_gauge_bill.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\scene_meshorbit.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\scene_meshfield.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\scene2D.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\scene_meshwall.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\scene3D.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\sceneX.cpp">
+      <Filter>ソース ファイル\シーン</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\ui.cpp">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\ui_gauge.cpp">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\ui_gauge_bill.cpp">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\timer.cpp">
+      <Filter>ソース ファイル\数字</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\sound.cpp">
+      <Filter>ソース ファイル\フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\result.cpp">
+      <Filter>ソース ファイル\フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\ranking.cpp">
+      <Filter>ソース ファイル\フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\title.cpp">
+      <Filter>ソース ファイル\フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\rankinglogo.cpp">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\resultlogo.cpp">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\titlelogo.cpp">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\tutorial.cpp">
+      <Filter>ソース ファイル\フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\collision.cpp">
+      <Filter>ソース ファイル\単独</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\polygon.cpp">
+      <Filter>ソース ファイル\単独</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\comboscore.cpp">
+      <Filter>ソース ファイル\数字</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\damagescore.cpp">
+      <Filter>ソース ファイル\数字</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\finalscore.cpp">
+      <Filter>ソース ファイル\数字</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\number.cpp">
+      <Filter>ソース ファイル\数字</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\rankingnumber.cpp">
+      <Filter>ソース ファイル\数字</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\debugproc.cpp">
+      <Filter>ソース ファイル\フレームワーク</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\score.cpp">
+      <Filter>ソース ファイル\数字</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\object.cpp">
+      <Filter>ソース ファイル\オブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\model.cpp">
+      <Filter>ソース ファイル\オブジェクト</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\pr.cpp">
+      <Filter>ソース ファイル\ui</Filter>
+    </ClCompile>
+    <ClCompile Include="sorce\renderer.cpp">
+      <Filter>ソース ファイル\フレームワーク</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="sorce\main.h">
+      <Filter>ヘッダー ファイル\フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\game.h">
+      <Filter>ヘッダー ファイル\フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\input.h">
+      <Filter>ヘッダー ファイル\フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\result.h">
+      <Filter>ヘッダー ファイル\フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\ranking.h">
+      <Filter>ヘッダー ファイル\フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\scene.h">
+      <Filter>ヘッダー ファイル\フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\scene_billboard.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\scene_billboard_anim.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\scene_gauge.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\scene_gauge_bill.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\scene_meshcylinder.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\scene_meshfield.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\scene_meshorbit.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\scene_meshwall.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\scene2D.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\scene3D.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\sceneX.h">
+      <Filter>ヘッダー ファイル\シーン</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\camera.h">
+      <Filter>ヘッダー ファイル\フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\light.h">
+      <Filter>ヘッダー ファイル\フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\sound.h">
+      <Filter>ヘッダー ファイル\フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\boss.h">
+      <Filter>ヘッダー ファイル\キャラクター</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\enemy.h">
+      <Filter>ヘッダー ファイル\キャラクター</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\enemy_pow.h">
+      <Filter>ヘッダー ファイル\キャラクター</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\enemy_trc.h">
+      <Filter>ヘッダー ファイル\キャラクター</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\player.h">
+      <Filter>ヘッダー ファイル\キャラクター</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\effect.h">
+      <Filter>ヘッダー ファイル\エフェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\particle.h">
+      <Filter>ヘッダー ファイル\エフェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\particle_2D.h">
+      <Filter>ヘッダー ファイル\エフェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\comboscore.h">
+      <Filter>ヘッダー ファイル\数字</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\damagescore.h">
+      <Filter>ヘッダー ファイル\数字</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\finalscore.h">
+      <Filter>ヘッダー ファイル\数字</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\score.h">
+      <Filter>ヘッダー ファイル\数字</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\tutorial.h">
+      <Filter>ヘッダー ファイル\フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\title.h">
+      <Filter>ヘッダー ファイル\フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\ui.h">
+      <Filter>ヘッダー ファイル\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\ui_gauge.h">
+      <Filter>ヘッダー ファイル\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\ui_gauge_bill.h">
+      <Filter>ヘッダー ファイル\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\timer.h">
+      <Filter>ヘッダー ファイル\数字</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\debugproc.h">
+      <Filter>ヘッダー ファイル\フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\polygon.h">
+      <Filter>ヘッダー ファイル\単独</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\collision.h">
+      <Filter>ヘッダー ファイル\単独</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\fade.h">
+      <Filter>ヘッダー ファイル\フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\renderer.h">
+      <Filter>ヘッダー ファイル\フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\manager.h">
+      <Filter>ヘッダー ファイル\フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\combogauge.h">
+      <Filter>ヘッダー ファイル\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\combo.h">
+      <Filter>ヘッダー ファイル\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\clearrank.h">
+      <Filter>ヘッダー ファイル\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\rankingnumber.h">
+      <Filter>ヘッダー ファイル\数字</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\cutin.h">
+      <Filter>ヘッダー ファイル\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\object.h">
+      <Filter>ヘッダー ファイル\オブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\model.h">
+      <Filter>ヘッダー ファイル\オブジェクト</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\number.h">
+      <Filter>ヘッダー ファイル\数字</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\pause.h">
+      <Filter>ヘッダー ファイル\フレームワーク</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\rankinglogo.h">
+      <Filter>ヘッダー ファイル\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\resultlogo.h">
+      <Filter>ヘッダー ファイル\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\titlelogo.h">
+      <Filter>ヘッダー ファイル\ui</Filter>
+    </ClInclude>
+    <ClInclude Include="sorce\pr.h">
+      <Filter>ヘッダー ファイル\ui</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

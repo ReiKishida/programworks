@@ -1,0 +1,137 @@
+#==============================================================================
+#
+# モデル情報のテキストファイル [model.txt]
+# Author : 岸田怜(Kishida Rei)
+#
+#==============================================================================
+SCRIPT
+
+#------------------------------------------------------------------------------
+# モデル数
+#------------------------------------------------------------------------------
+NUM_MODEL = 23
+
+#------------------------------------------------------------------------------
+# モデルファイル名
+#------------------------------------------------------------------------------
+MODEL_FILENAME = data/MODEL/object/dram.x					# [0]ドラム缶
+MODEL_FILENAME = data/MODEL/object/dust_box.x				# [1]ゴミ箱
+MODEL_FILENAME = data/MODEL/object/keepout.x				# [2]停止線
+MODEL_FILENAME = data/MODEL/object/phone.x					# [3]電話
+MODEL_FILENAME = data/MODEL/object/pillar.x					# [4]柱
+MODEL_FILENAME = data/MODEL/object/stair.x					# [5]階段
+MODEL_FILENAME = data/MODEL/object/station_board000.x		# [6]看板01
+MODEL_FILENAME = data/MODEL/object/station_board000_90d.x	# [7]看板01(90)
+MODEL_FILENAME = data/MODEL/object/station_board001.x		# [8]看板02
+MODEL_FILENAME = data/MODEL/object/station_board001_90d.x	# [9]看板02(90)
+MODEL_FILENAME = data/MODEL/object/station_chair.x			# [10]椅子
+MODEL_FILENAME = data/MODEL/object/ticket_gate.x			# [11]改札
+MODEL_FILENAME = data/MODEL/object/train_chair.x			# [12]電車内椅子
+MODEL_FILENAME = data/MODEL/object/train_chair_L.x			# [13]電車内椅子(大)
+MODEL_FILENAME = data/MODEL/object/box_L.x					# [14]木箱(大)
+MODEL_FILENAME = data/MODEL/object/box_M.x					# [15]木箱(中)
+MODEL_FILENAME = data/MODEL/object/train_pole.x				# [16]電車内棒
+MODEL_FILENAME = data/MODEL/object/train.x					# [17]電車
+MODEL_FILENAME = data/MODEL/object/train_floor.x			# [18]電車_床
+MODEL_FILENAME = data/MODEL/object/train_left.x				# [19]電車_左
+MODEL_FILENAME = data/MODEL/object/train_right.x			# [20]電車_右
+MODEL_FILENAME = data/MODEL/object/train_depth.x			# [21]電車_奥
+MODEL_FILENAME = data/MODEL/object/jj.x						# [22]自販機
+MODEL_FILENAME = data/MODEL/object/denkou_L.x				# [23]広告
+MODEL_FILENAME = data/MODEL/object/denkou_L_90.x			# [24]広告90
+MODEL_FILENAME = data/MODEL/object/denkou_L_up.x			# [25]広告(上)
+MODEL_FILENAME = data/MODEL/object/denkou_L_up_90.x			# [26]広告(上_90)
+
+
+#------------------------------------------------------------------------------
+#モデル配置情報
+#------------------------------------------------------------------------------
+
+#----------------------------------
+#階段
+#----------------------------------
+MODELSET
+	POS = -150.0 0.0 -360.0
+	ROT = 0.0 -90.0 0.0
+	TYPE = 5
+END_MODELSET
+MODELSET
+	POS = -150.0 0.0 -350.0
+	ROT = 0.0 180.0 0.0
+	TYPE = 2
+END_MODELSET
+
+#----------------------------------
+#ドラム缶
+#----------------------------------
+MODELSET
+	POS = 370.0 0.0 -300.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 0
+END_MODELSET
+MODELSET
+	POS = 370.0 0.0 -350.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 0
+END_MODELSET
+
+#----------------------------------
+#看板01
+#----------------------------------
+MODELSET
+	POS = -180.0 0.0 -185.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 7
+END_MODELSET
+
+#----------------------------------
+#看板02
+#----------------------------------
+MODELSET
+	POS = -60.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+MODELSET
+	POS = 95.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+MODELSET
+	POS = 250.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+MODELSET
+	POS = 405.0 0.0 -400.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 8
+END_MODELSET
+
+
+#----------------------------------
+#木箱(1グループ)
+#----------------------------------
+MODELSET
+	POS = 450.0 0.0 -340.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 14
+END_MODELSET
+
+MODELSET
+	POS = 450.0 0.0 -250.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 14
+END_MODELSET
+
+MODELSET
+	POS = 450.0 0.0 -130.0
+	ROT = 0.0 0.0 0.0
+	TYPE = 14
+END_MODELSET
+
+
+
+
+
+END_SCRIPT

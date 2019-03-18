@@ -1,0 +1,244 @@
+#------------------------------------------------------------------------
+# モデル情報[model.txt]
+# Author:RyotaKinoshita
+#------------------------------------------------------------------------
+SCRIPT
+
+#------------------------------------------------------------------------------
+# 読み込むテクスチャ数 最大24
+#------------------------------------------------------------------------------
+NUM_TEXTURE = 10
+
+#------------------------------------------------------------------------------
+# 読み込むテクスチャファイル名
+#------------------------------------------------------------------------------
+TEXTURE_FILENAME = data/TEXTURE/woodField000.jpg	# [0]地面テクスチャ
+TEXTURE_FILENAME = data/TEXTURE/dairiseki.jpg		# [1]大理石
+TEXTURE_FILENAME = data/TEXTURE/ooheya.jpg			# [2]おお部屋
+TEXTURE_FILENAME = data/TEXTURE/toire.png			# [3]トイレとかにありそうなやつ
+TEXTURE_FILENAME = data/TEXTURE/dairisekiwall.jpg	# [4]大理石の床
+TEXTURE_FILENAME = data/TEXTURE/stairs.jpg			# [5]階段
+TEXTURE_FILENAME = data/TEXTURE/green000.png		# [6]地面テクスチャ半透明
+TEXTURE_FILENAME = data/TEXTURE/land000.jpeg		# [7]地面2
+TEXTURE_FILENAME = data/TEXTURE/black.png			# [8]黒
+TEXTURE_FILENAME = data/TEXTURE/akaroom.jpg			# [9] レッドカーペット
+
+#------------------------------------------------------------------------------
+# 読み込むテクスチャ数 最大24
+#------------------------------------------------------------------------------
+NUM_WALL = 7
+
+#------------------------------------------------------------------------------
+# 読み込むテクスチャファイル名
+#------------------------------------------------------------------------------
+WALL_FILENAME = data/TEXTURE/wall002.jpg		# [0]地面1
+WALL_FILENAME = data/TEXTURE/wall000.jpg		# [1]壁１
+WALL_FILENAME = data/TEXTURE/wall003.jpg		# [2]最初の部屋の壁
+WALL_FILENAME = data/TEXTURE/bosswall.jpg		# [3]ボスの壁
+WALL_FILENAME = data/TEXTURE/None.png			# [4]見えない壁
+WALL_FILENAME = data/TEXTURE/dairiwall.png		# [5]石地面
+WALL_FILENAME = data/TEXTURE/black.png			# [6]黒
+
+#------------------------------------------------------------------------------
+# モデル数
+#------------------------------------------------------------------------------
+NUM_MODEL = 36
+
+#------------------------------------------------------------------------------
+# モデルファイル名 最大30
+#------------------------------------------------------------------------------
+MODEL_FILENAME = data/MODEL/book.x						# [0]本(横向き)
+MODEL_FILENAME = data/MODEL/bookShelf.x					# [1]本棚
+MODEL_FILENAME = data/MODEL/candle.x					# [2]ろうそく
+MODEL_FILENAME = data/MODEL/chair.x						# [3]椅子
+MODEL_FILENAME = data/MODEL/handrail.x					# [4]手すり
+MODEL_FILENAME = data/MODEL/largeDoor000.x				# [5]でかいドア
+MODEL_FILENAME = data/MODEL/largeDoor001.x				# [6]でかいドア
+MODEL_FILENAME = data/MODEL/plant.x						# [7]植物
+MODEL_FILENAME = data/MODEL/smallDoor.x					# [8]小さいドア正面
+MODEL_FILENAME = data/MODEL/stone.x						# [9]石
+MODEL_FILENAME = data/MODEL/table.x						# [10]テーブル
+MODEL_FILENAME = data/MODEL/window.x					# [11]窓
+MODEL_FILENAME = data/MODEL/cap.x						# [12]カップ
+MODEL_FILENAME = data/MODEL/gaisou.x					# [13]外装
+MODEL_FILENAME = data/MODEL/gaitou.x					# [14]街頭
+MODEL_FILENAME = data/MODEL/hasira.x					# [15]柱
+MODEL_FILENAME = data/MODEL/hasira2.x					# [16]柱2
+MODEL_FILENAME = data/MODEL/hunsui.x					# [17]噴水
+MODEL_FILENAME = data/MODEL/hurudokei.x					# [18]古時計
+MODEL_FILENAME = data/MODEL/kaiga.x						# [19]絵画
+MODEL_FILENAME = data/MODEL/kansetushoumei.x			# [20]間接照明
+MODEL_FILENAME = data/MODEL/sara.x						# [21]皿
+MODEL_FILENAME = data/MODEL/shanderia.x					# [22]シャンデリア
+MODEL_FILENAME = data/MODEL/tukue.x						# [23]机
+MODEL_FILENAME = data/MODEL/tubo.x						# [24]壺
+MODEL_FILENAME = data/MODEL/tree000.x					# [25]木
+MODEL_FILENAME = data/MODEL/tree001.x					# [26]木
+MODEL_FILENAME = data/MODEL/smallDoor1.x				# [27]小さいドア横
+MODEL_FILENAME = data/MODEL/largeDoor002.x				# [28]洋館扉
+MODEL_FILENAME = data/MODEL/largeDoor003.x				# [29]洋館扉
+MODEL_FILENAME = data/MODEL/armor.x						# [30]鎧
+MODEL_FILENAME = data/MODEL/hasira3.x					# [31]柱3
+MODEL_FILENAME = data/MODEL/handrail1.x					# [32]手すり
+MODEL_FILENAME = data/MODEL/book001.x					# [33]本(縦向き)
+MODEL_FILENAME = data/MODEL/shanderia1.x				# [34]でかいシャンデリア
+MODEL_FILENAME = data/MODEL/BossSaku.x					# [35]ボスの柵
+
+#------------------------------------------------------------------------------
+# ブロック	あたり判定
+# 正方形なら半径のみ使用すると効率がいいかも
+# XYZはモデルの原点からのオフセット
+#------------------------------------------------------------------------------
+
+SETCOLLISION
+# タイプ X Y Z 半径 幅 奥行き 高さ
+# --------- 本(横向き) --------------#
+	COLLISION = 0	 0 0 0		 15 0 0 5 		# 本
+	
+# --------- 本棚 --------------------#
+	COLLISION = 1	 0 0 0		 30 150 0 340 	# 本棚
+	
+# --------- ろうそく ----------------#
+	COLLISION = 2	 0 0 0		 10 0 0 55		# ろうそく
+
+# --------- 椅子 --------------------#
+	COLLISION = 3	 5 0 0		 25 0 5 45	 	# 椅子
+	COLLISION = 3	 5 40 -25	 5 40 5 60	 	# 背かけ
+	
+# --------- 手すり ------------------#
+	COLLISION = 4	 0 0 0		 10 0 110 75	# 手すり
+
+# --------- 大きいドア(000) ---------#
+	COLLISION = 5	 -65 0 7	 10 120 7 260	# 大きいドア000
+	COLLISION = 5	 -112 95 8	 10 0 2 52		# ドアノブ000
+	COLLISION = 5	 -100 115 10 5 25 40 15		# ドアノブ000
+
+# --------- 大きいドア(001) ---------#
+	COLLISION = 6	 65 0 7	 	 10 120 7 260	# 大きいドア001
+	COLLISION = 6	 112 95 8	 10 0 2 52		# ドアノブ001
+	COLLISION = 6	 100 115 10  5 25 40 15		# ドアノブ001
+	
+# --------- 植物 --------------------#
+	COLLISION = 7	 0 0 0	 	15 0 0 30		# 植木鉢
+	COLLISION = 7	 0 30 0	 	5 0 0 30		# 幹
+	COLLISION = 7	 0 50 0	 	30 0 0 100		# 植物
+	
+# --------- 小さいドア(横向き) ------#
+	COLLISION = 8	 -50 0 0	10 100 10 175	# 小さいドア(横向き)
+	
+# --------- 石 ----------------------#
+	COLLISION = 9	 0 0 0	 	25 0 0 30		# 台
+	COLLISION = 9	 0 30 0	 	20 0 0 75		# 像
+	
+# --------- テーブル ----------------#
+	COLLISION = 10	 0 0 0	 	30 5 195 60		# テーブル
+	0
+# --------- 窓 ----------------------#
+	COLLISION = 11	 0 0 0	 	20 100 0 135	# 窓	
+	
+# --------- カップ ------------------#
+	COLLISION = 12	 0 0 -5	 	10 0 10 20		# カップ	
+	
+# --------- 外装 --------------------#
+	COLLISION = 13	 -615 0 185  0 730 100 1000		# 外装000(正面中央壁)	
+	COLLISION = 13	 605 0 185  0 800 100 1000		# 外装001(正面中央壁)	
+	COLLISION = 13	 175 400 185  0 800 100 1000	# 外装002(うえ)	
+	COLLISION = 13	 1070  0 145  0 1000 100 1000	# 外装003(正面左側壁)	
+	COLLISION = 13	 -1300 0 280  0 600 100 1000	# 外装004(正面右側壁)
+	COLLISION = 13	 -1470 0 -280	0 0 4500 1000	# 外装005(左面縦壁)	
+	COLLISION = 13	 1580 0 -280	0 0 4600 1000	# 外装006(右面縦壁)	
+	
+# --------- 街頭 --------------------#
+	COLLISION = 14	 0 0 0	 	20 0 0 330		# 街頭
+
+# --------- 柱000 -------------------#
+	COLLISION = 15	 0 0 0	 	35 0 0 190		# 柱000
+	COLLISION = 15	 0 190 0	50 0 0 27		# 上
+
+# --------- 柱001 -------------------#
+	COLLISION = 16	 0 0 0	 	35 0 0 190		# 柱001
+
+# --------- 噴水 --------------------#
+	COLLISION = 17	 0 0 0	 	30 0 0 450			# 噴水
+	COLLISION = 17	 0 0 0	 	300 0 0 80			# 噴水
+	COLLISION = 17	 0 0 0	 	225 0 250 80		# 噴水
+	COLLISION = 17	 0 0 0	 	225 250 0 80		# 噴水
+
+	COLLISION = 17	 0 200 0	 	200 0 0 60		# 噴水
+	COLLISION = 17	 0 200 0	 	125 0 250 60	# 噴水
+	COLLISION = 17	 0 200 0	 	125 250 0 60	# 噴水
+
+
+	COLLISION = 17	 0 370 0	 	125 0 0 30		# 噴水
+	COLLISION = 17	 0 370 0	 	75 0 170 30		# 噴水
+	COLLISION = 17	 0 370 0	 	75 170 0 30		# 噴水
+
+# --------- 古時計 ------------------#
+	COLLISION = 18	 0 0 0	 	30 0 0 230		# 古時計
+
+# --------- 絵画 --------------------#
+	COLLISION = 19	 0 0 0	 	10 80 0 125		# 絵画
+
+# --------- 間接照明 ----------------#
+	COLLISION = 20	 0 75 0	 	10 30 10 60		# 間接照明
+
+# --------- 皿 ----------------------#
+	COLLISION = 21	 0 0 0	 	20 0 0 10		# 皿
+
+# --------- シャンデリア ------------#
+	COLLISION = 22	 0 120 0	10 0 0 180		# シャンデリア(中心)
+	COLLISION = 22	 0 150 0	80 0 0 50		# シャンデリア(周り)
+
+# --------- 机 ----------------------#
+	COLLISION = 23	 0 0 0	 	30 0 0 70		# 机
+
+# --------- 壺 ----------------------#
+	COLLISION = 24	 0 0 0	 	30 0 0 60		# 壺
+
+# --------- 低木  ----------------------#
+	COLLISION = 25 0 0 0 30 0 0 280 				# 幹
+	COLLISION = 25 0 100 0 80 0 0 100 			# 葉
+	COLLISION = 25 0 200 0 130 0 0 130			# 葉
+	COLLISION = 25 0 330 0 90 0 0 30				# 葉
+# --------- 中木  ----------------------#
+	COLLISION = 26 0 0 0 30 0 0 280 				# 幹
+	COLLISION = 26 0 100 0 80 0 0 100 			# 葉
+	COLLISION = 26 0 200 0 250 0 0 200 			# 葉
+	COLLISION = 26 0 400 0 180 0 0 50 			# 葉
+
+# --------- 小さいドア(横向き) ---------#
+	COLLISION = 27	 0 0 50	10 10 100 175		# 小さいドア(横向き)
+
+# --------- 洋館扉1 ---------#
+	COLLISION = 28	 -100 0 0	10 190 5 400	# 洋館扉1
+	COLLISION = 28	 -170 155 0	10 10 15 70		# ドアノブ1
+	COLLISION = 28	 -170 170 -10 10 0 40 20	# ドアノブ2
+
+# --------- 洋館扉2 ---------#
+	COLLISION = 29	 100 0 0	10 190 5 400	# 洋館扉2
+	COLLISION = 29	 170 155 0	10 10 15 70		# ドアノブ3
+	COLLISION = 29	 170 170 -10 10 0 40 20		# ドアノブ4
+
+# --------- 鎧 --------------#
+	COLLISION = 30	 0 0 0	20 0 0 130			# 鎧
+	
+# --------- 柱002 ----------------------#
+	COLLISION = 31	 0 0 0		50 0 0 27		# 下
+	COLLISION = 31	 0 27 0	 	35 0 0 190		# 柱002
+
+# --------- 手すり ------------------#
+	COLLISION = 32	 0 0 0		 10 110 0 75	# 手すり	
+
+# --------- 本(縦向き) -----------------#
+	COLLISION = 33	 0 0 0		 5 0 20 40		# 本(縦向き)
+
+# --------- でかいシャンデリア ---------#
+	COLLISION = 34	 0 230 0	30 0 0 640		# でかいシャンデリア(中心)
+	COLLISION = 34	 0 300 0	240 0 0 170		# でかいシャンデリア(周り)
+# --------- ボスの柵 ---------#
+	COLLISION = 35	 0 0 0	0 630 60 1000		
+
+ENDSETCOLLISION
+
+
+ENDSCRIPT
